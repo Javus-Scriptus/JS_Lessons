@@ -7,7 +7,7 @@ const country = {
 
 console.log(country)
 
-// const { name, state, population, landscape, isOfficial = false, isLandlocked = true } = country
+const { name, state, population, landscape, isOfficial = false, isLandlocked = true } = country
 // console.log(name, state, population, landscape, isOfficial, isLandlocked)
 
 // const {
@@ -17,8 +17,6 @@ console.log(country)
 //     population,
 
 // } = realState
-
-console.log(country, name, state, population, landscape, isOfficial, isLandlocked)
 
 //hotel
 const hotel = {
