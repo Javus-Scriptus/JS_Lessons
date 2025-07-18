@@ -10,7 +10,7 @@ console.log(sortedNumbers);
 
 const originalLetters = ['e', 'A', 'D', 'c', 'E', 'a', 'B', 'd', 'C', 'b'];
 
-const sortedLetters = originalLetters.slice().sort();
+const sortedLetters = [...originalLetters].slice().sort();
 
 console.log(originalLetters);
 console.log(sortedLetters);
