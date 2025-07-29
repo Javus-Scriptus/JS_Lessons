@@ -108,7 +108,7 @@ headlineEl.innerHTML = '<a href="headline">Headline</a>';
 headlineEl.insertAdjacentHTML('beforebegin', '<a href="headline">Headline</a>');
 headlineEl.insertAdjacentHTML('afterebegin', '<a href="headline">Headline</a>');
 headlineEl.insertAdjacentHTML('beforeend', '<a href="headline">Headline</a>');
-headlineEl.insertAdjacentHTML('afterbegin', '<a href="headline">Headline</a>');
+headlineEl.insertAdjacentHTML('afterend', '<a href="headline">Headline</a>');
 
 //TODO users
 import users from './users.js';
