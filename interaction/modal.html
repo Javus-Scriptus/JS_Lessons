@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="modal.css">
+</head>
+
+<body>
+    <button type="button" class="style-btn js-add-listener">Add listener</button>
+    <button type="button" class="style-btn js-target-btn">僕をクリック, 先生</button>
+    <button type="button" class="style-btn js-remove-listener">Remove listener</button>
+
+    <form class='js-register-form' autocomplete='off'>
+        <div role='group'>
+            <label>
+                Пошта
+                <input type='email' name='email' />
+            </label>
+            <label>
+                Пароль
+                <input name='password' type='password' />
+            </label>
+        </div>
+
+        <br />
+        <div role='group'>
+            <b>Варіант підписки:</b>
+            <label>
+                <input type='radio' name='subscription' value='free' />
+                Free
+            </label>
+            <label>
+                <input type='radio' name='subscription' value='basic' />
+                Basic
+            </label>
+            <label>
+                <input type='radio' name='subscription' value='pro' />
+                Pro
+            </label>
+        </div>
+
+        <br />
+        <button type='submit'>Зареєструватись</button>
+    </form>
+    <script type="module" src="./modal.js"></script>
+</body>
+
+</html>
